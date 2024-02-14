@@ -97,6 +97,7 @@ img {
 .logo {
 }
 .nav-list {
+  display: none;
 }
 .list {
 }
@@ -105,12 +106,24 @@ img {
 .nav-link {
 }
 .signup {
+  gap: 20px;
 }
-.signup-item {
-}
+
 .slogan {
 }
 .main-tittle {
 }
 .slogan-subtitle {
+}
+.signup {
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.line::before {
+  content: " ";
+  position: absolute;
+  background-color: var(--second-accent-color);
+  width: 3px;
+  height: 20px;
 }
