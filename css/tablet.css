@@ -3,9 +3,36 @@
     width: 768px;
   }
 
-  /* HEADER */
+  .header > .container {
+    max-width: 768px;
+    width: 100%;
+  }
 
-  .header-list {
-    display: none;
+  .header {
+  }
+
+  .logo-link {
+  }
+  .link {
+  }
+  .logo {
+  }
+  .nav-list {
+  }
+  .list {
+  }
+  .nav-item {
+  }
+  .nav-link {
+  }
+  .signup {
+  }
+  .signup-item {
+  }
+  .slogan {
+  }
+  .main-tittle {
+  }
+  .slogan-subtitle {
   }
 }
