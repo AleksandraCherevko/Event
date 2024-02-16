@@ -65,65 +65,94 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  max-width: 100%;
 }
 .no-scroll {
   overflow: hidden;
 }
 
-.main-tittle {
-  font-family: Montserrat Alternates;
-  font-size: 68px;
-  font-weight: 500;
-  line-height: 1.3;
-  letter-spacing: 0em;
-  color: #f8f1e9;
-}
-
-.slogan-subtitle {
-  font-family: Montserrat;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.3;
-  letter-spacing: 0em;
-  color: #979797;
+.hidden {
+  display: none;
 }
 
 /* HEADER */
-
-.logo-link {
+.header > .container {
+  width: 343px;
+  max-width: 100%;
+  display: flex;
 }
-.link {
-}
-.logo {
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
 }
 .nav-list {
   display: none;
 }
-.list {
-}
-.nav-item {
-}
+
 .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0em;
+  color: var(--second-accent-color);
 }
+
 .signup {
-  gap: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.logo-link {
+  margin-right: 15px;
+}
+
+/* HERO */
+
+.slogan-wrap {
+}
+
+.main-tittle {
+  font-family: Montserrat, "alternates";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #f4e2e2;
+}
+
+.slogan-subtitle {
+  color: #979797;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 
 .slogan {
+  padding-top: 40px;
+  padding-bottom: 24px;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-1x.mob.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
 }
-.main-tittle {
-}
-.slogan-subtitle {
-}
-.signup {
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-}
-.line::before {
-  content: " ";
-  position: absolute;
-  background-color: var(--second-accent-color);
-  width: 3px;
-  height: 20px;
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-2x.mob.jpg);
+  }
 }

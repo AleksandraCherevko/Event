@@ -7,11 +7,11 @@
     max-width: 1360px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .header {
-    padding-top: 20px;
+    padding-top: 36px;
     padding-bottom: 22px;
   }
 
@@ -19,23 +19,19 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .header-navigation {
+
+  .logo {
+    width: 138px;
+    height: 80px;
   }
   .logo-link {
     margin-right: auto;
-  }
-  .link {
-  }
-  .logo {
   }
   .nav-list {
     display: flex;
     gap: 40px;
   }
-  .list {
-  }
-  .nav-item {
-  }
+
   .nav-link {
     font-size: 18px;
     font-weight: 700;
@@ -54,10 +50,56 @@
   }
   .signup-item {
   }
-  .slogan {
+
+  /* HERO */
+
+  .slogan > .container {
+    width: 1102px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
   }
+
+  .slogan {
+    padding-top: 239px;
+    padding-bottom: 154px; background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-1x.pc.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+      url(../images/hero-2x.pc.jpg);
+  }
+
   .main-tittle {
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 1.32;
+  }
+  .main-tittl,
+  .mt-span {
+    text-align: center;
+    display: inline-block;
+    max-height: 90px;
+  }
+  .inline-title {
+    display: flex;
   }
   .slogan-subtitle {
+    margin-top: 32px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.28;
   }
 }

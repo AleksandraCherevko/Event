@@ -3,34 +3,92 @@
     width: 768px;
   }
 
-  .header > .container {
-    max-width: 768px;
-    width: 100%;
-  }
+  /* HEADER */
 
-  .logo-link {
+  .header > .container {
+    width: 526px;
+    max-width: 100%;
+    display: flex;
   }
-  .link {
-  }
-  .logo {
+  .header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-items: center;
   }
   .nav-list {
     display: none;
   }
-  .list {
-  }
-  .nav-item {
-  }
+
   .nav-link {
+    font-size: 19px;
+    line-height: 1.2;
   }
+
   .signup {
+    display: flex;
+    gap: 10px;
   }
-  .signup-item {
+
+  .logo {
+    width: 130px;
+    height: 64px;
+    margin-right: 103px;
+  }
+
+  /* HERO */
+  .slogan > .container {
+    width: 405px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .slogan {
+    padding-top: 31px;
+    padding-bottom: 72px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-1x.tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-2x.tablet.jpg);
+    }
+  }
+
+  .slogan-wrap {
+    display: flex;
+  }
+  .mt-span {
+    display: block;
   }
   .main-tittle {
+    width: 645px;
+    height: 144px;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.14;
   }
+
   .slogan-subtitle {
+    weight: 700;
+    width: 342px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.12;
+  }
+
+  .searching {
   }
 }
