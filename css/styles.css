@@ -155,4 +155,35 @@ img {
       ),
       url(../images/hero-2x.mob.jpg);
   }
+
+  /* ABOUT COMPANY */
+
+  .about-company-title {
+    font-family: Montserrat, "alternates";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: var(--second-accent-color);
+  }
+
+  .about-company-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.28;
+    letter-spacing: 0em;
+    color: var(--accent-color);
+  }
+
+  .about-company-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .about-company-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
