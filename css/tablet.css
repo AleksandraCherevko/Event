@@ -70,20 +70,25 @@
     display: flex;
   }
   .mt-span {
-    display: block;
+    display: inline-block;
+  }
+
+  .slogan-wrap-text {
+    width: 629px;
+    height: 129px;
   }
   .main-tittle {
-    width: 645px;
-    height: 144px;
+    display: flex;
     font-size: 56px;
+    flex-direction: column;
+    align-items: flex-start;
     font-weight: 500;
     line-height: 1.14;
   }
 
   .slogan-subtitle {
-    weight: 700;
-    width: 342px;
-    height: 36px;
+    display: flex;
+    justify-content: flex-end;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.12;

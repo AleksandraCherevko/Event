@@ -62,44 +62,46 @@
 
   .slogan {
     padding-top: 239px;
-    padding-bottom: 154px; background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-1x.pc.jpg);
+    padding-bottom: 154px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-1x.pc.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .box {
-    background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-      url(../images/hero-2x.pc.jpg);
-  }
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-2x.pc.jpg);
+    }
 
-  .main-tittle {
-    font-size: 68px;
-    font-weight: 500;
-    line-height: 1.32;
-  }
-  .main-tittl,
-  .mt-span {
-    text-align: center;
-    display: inline-block;
-    max-height: 90px;
-  }
-  .inline-title {
-    display: flex;
-  }
-  .slogan-subtitle {
-    margin-top: 32px;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.28;
+    .main-tittle {
+      font-size: 68px;
+      font-weight: 500;
+      line-height: 1.32;
+    }
+    .main-tittl,
+    .mt-span {
+      text-align: center;
+      display: inline-block;
+      max-height: 90px;
+    }
+    .inline-title {
+      display: flex;
+    }
+    .slogan-subtitle {
+      margin-top: 32px;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.28;
+    }
   }
 }
