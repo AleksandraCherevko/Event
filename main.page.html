@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
@@ -47,7 +54,7 @@
               <a href="" class="nav-link link">Sign-in</a>
             </li>
 
-            <li class="signup-item line">
+            <li class="signup-item">
               <a href="" class="nav-link link">Sign-up</a>
             </li>
           </ul>
@@ -56,19 +63,19 @@
     </header>
     <section class="slogan">
       <div class="container">
-        <h1>Organization of corporate events</h1>
-        <p>
+        <h1 class="slogan-title">Organization of corporate events</h1>
+        <p class="slogan-text">
           Protocol of CBD meetings and events. We are the #1 corporate planning
           firm in Washington for international governments, diplomats and banks.
         </p>
-        <button>More information</button>
+        <button class="more-detail-btn">More information</button>
       </div>
     </section>
     <section>
       <div class="container">
-        <img src="" alt="" />
-        <h3>About company</h3>
-        <p>
+        <img class="about-img" src="" alt="" />
+        <h3 class="about-title">About company</h3>
+        <p class="about-text">
           CBD Meetings & Events is Washington, DC's turnkey solution to complete
           event planning, event management and event marketing. CBD is the best
           integrated meeting planner for the international community. We proudly
@@ -76,41 +83,41 @@
           non-profit organizations, foundations and associations, corporations
           and individuals.
         </p>
-        <button>More information</button>
-        <p>You can find inspiration everywhere</p>
-        <button>Chat</button>
+        <button class="more-detail-btn">More information</button>
+        <p class="inspiration-text">You can find inspiration everywhere</p>
+        <button class="chat-btn">Chat</button>
       </div>
     </section>
-    <section>
+    <section class="protocol">
       <div class="container">
-        <h3>The protocol of events and meetings</h3>
-        <ul>
-          <li>
-            <p>1. Planning</p>
-            <p>
+        <h3 class="protocol-title">The protocol of events and meetings</h3>
+        <ul class="protocol-list">
+          <li class="protocol-item">
+            <p class="protocol-card-title">1. Planning</p>
+            <p class="protocol-text">
               Content managers Conclusion of the contract Design concept Budget
               Pre-registration Public Relations Site selection Booking speakers
               Talent search
             </p>
           </li>
-          <li>
-            <p>2. Logistics</p>
-            <p>
+          <li class="protocol-item">
+            <p class="protocol-card-title">2. Logistics</p>
+            <p class="protocol-text">
               Air travel Rental of decor Rental of ceremonial underwear Land
               transport Hotel reservation Printing Private security Staff
               support Communication with suppliers
             </p>
           </li>
-          <li>
-            <p>3. Implementation</p>
-            <p>
+          <li class="protocol-item">
+            <p class="protocol-card-title">3. Implementation</p>
+            <p class="protocol-text">
               Gifts to participants Audiovisual Service Decor Marketing Photo
               Promotional goods Sound / Lighting Video shooting
             </p>
           </li>
-          <li>
-            <p>4. Management</p>
-            <p>
+          <li class="protocol-item">
+            <p class="protocol-card-title">4. Management</p>
+            <p class="protocol-text">
               Contract management Destination management Logistics management
               Protocol management Away events Registration of participants on
               site Procurement Strategic management
@@ -121,144 +128,153 @@
     </section>
     <section>
       <div class="container">
-        <h3>Sophisticated design concepts</h3>
-        <ul>
-          <li>
-            <a href=""><img src="" alt="" /></a>
+        <h3 class="gallery-title">Sophisticated design concepts</h3>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <a class="gallery-link" href=""
+              ><img class="gallery-img" src="" alt=""
+            /></a>
           </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
+          <li class="gallery-item">
+            <a class="gallery-link" href=""
+              ><img class="gallery-img" src="" alt=""
+            /></a>
           </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
+          <li class="gallery-item">
+            <a class="gallery-link" href=""
+              ><img class="gallery-img" src="" alt=""
+            /></a>
           </li>
         </ul>
-        <button>More information</button>
+        <button class="more-detail-btn">More information</button>
       </div>
     </section>
     <section>
       <div class="container">
-        <h3>Choice Services</h3>
-        <ul>
-          <li>Logistics and registration</li>
-          <li>Destination management</li>
-          <li>Discussion of place and object</li>
-          <li>Service</li>
+        <h3 class="service-menu-title">Choice Services</h3>
+        <ul class="service-menu-list">
+          <li class="service-menu-item">Logistics and registration</li>
+          <li class="service-menu-item">Destination management</li>
+          <li class="service-menu-item">Discussion of place and object</li>
+          <li class="service-menu-item">Service</li>
         </ul>
-        <ul>
-          <li>Audiovisual</li>
-          <li>Sound and lighting</li>
-          <li>Creative design and decor</li>
-          <li>Photography and video recording</li>
+        <ul class="service-menu-list">
+          <li class="service-menu-item">Audiovisual</li>
+          <li class="service-menu-item">Sound and lighting</li>
+          <li class="service-menu-item">Creative design and decor</li>
+          <li class="service-menu-item">Photography and video recording</li>
         </ul>
       </div>
     </section>
     <section>
       <div class="container">
-        <h3>Thematic events - unforgettable festive emotions</h3>
-        <h4>We use the most modern design</h4>
-        <p>
+        <h3 class="events-title">
+          Thematic events - unforgettable festive emotions
+        </h3>
+        <h4 class="events-after-title">We use the most modern design</h4>
+        <p class="events-after-text">
           The key to a great event is to make it memorable. At CBD, we use your
           brand concept and personality to create the mood and set the standard.
         </p>
-        <p>
+        <p class="events-after-text">
           There are NO cake cutting events here. Every design element is
           customized and we NEVER FORGET the small details.
         </p>
-        <button>More information</button>
-        <img src="" alt="" />
+        <button class="more-detail-btn">More information</button>
+        <img class="events-img" src="" alt="" />
       </div>
     </section>
     <section>
       <div class="container">
-        <h3>The latest news</h3>
-        <ul>
-          <li>
-            <p>May 21, 2019</p>
-            <img src="" alt="" />
-            <p>How the event is planned</p>
+        <h3 class="news-title">The latest news</h3>
+        <ul class="news-list">
+          <li class="news-item">
+            <p class="news-date">May 21, 2019</p>
+            <img class="news-img" src="" alt="" />
+            <p class="news-text">How the event is planned</p>
           </li>
-          <li>
-            <p>August 21, 2019</p>
-            <img src="" alt="" />
-            <p>Information for finding an organizer</p>
+          <li class="news-item">
+            <p class="news-date">August 21, 2019</p>
+            <img class="news-img" src="" alt="" />
+            <p class="news-text">Information for finding an organizer</p>
           </li>
-          <li>
-            <p>August 28, 2019</p>
-            <img src="" alt="" />
-            <p>Meetings and events. Brochure</p>
+          <li class="news-item">
+            <p class="news-date">August 28, 2019</p>
+            <img class="news-img" src="" alt="" />
+            <p class="news-text">Meetings and events. Brochure</p>
           </li>
-          <button>Get acquainted</button>
+          <button class="more-detail-btn">Get acquainted</button>
         </ul>
       </div>
     </section>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo-link link">
           <svg class="logo" width="88" height="40">
             <use href="./images/symbol-defs.svg#icon-CBD"></use>
           </svg>
         </a>
-        <ul>
-          <li>
-            <p>About CBD</p>
-            <p>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <p class="footer-about">About CBD</p>
+            <p class="footer-text">
               CBD is Washington's premier event planning management company for
               corporations, nonprofits, international governments and community
               events.
             </p>
           </li>
         </ul>
-        <p>Event planning</p>
-        <ul>
-          <li>CBD meetings and events</li>
-          <li>Event planning</li>
-          <li>Services of the organization</li>
-          <li>Gallery</li>
-          <li>Cost</li>
-          <li>Price</li>
+        <p class="footer-text">Event planning</p>
+        <ul class="footer-list">
+          <li class="footer-item">CBD meetings and events</li>
+          <li class="footer-item">Event planning</li>
+          <li class="footer-item">Services of the organization</li>
+          <li class="footer-item">Gallery</li>
+          <li class="footer-item">Cost</li>
+          <li class="footer-item">Price</li>
         </ul>
-        <p>Services for customers</p>
-        <ul>
-          <li>Planning a meeting</li>
-          <li>Event planning</li>
-          <li>Service</li>
-          <li>Public Relations</li>
-          <li>Marketing</li>
-          <li>Venue</li>
-          <li>Rental of materials</li>
-          <li>Audiovisual</li>
-          <li>Photo</li>
-          <li>Registration</li>
-          <li>Organization of events</li>
-          <li>Sound and lighting</li>
-          <li>Design concept</li>
-          <li>Destination management</li>
+
+        <p class="footer-text">Services for customers</p>
+        <ul class="footer-list">
+          <li class="footer-item">Planning a meeting</li>
+          <li class="footer-item">Event planning</li>
+          <li class="footer-item">Service</li>
+          <li class="footer-item">Public Relations</li>
+          <li class="footer-item">Marketing</li>
+          <li class="footer-item">Venue</li>
+          <li class="footer-item">Rental of materials</li>
+          <li class="footer-item">Audiovisual</li>
+          <li class="footer-item">Photo</li>
+          <li class="footer-item">Registration</li>
+          <li class="footer-item">Organization of events</li>
+          <li class="footer-item">Sound and lighting</li>
+          <li class="footer-item">Design concept</li>
+          <li class="footer-item">Destination management</li>
         </ul>
-        <p>Contacts</p>
-        <ul>
-          <li>CBD Meetings and individual events</li>
-          <li>PO Box 76096</li>
-          <li>Washington DC 20013</li>
-          <li>Hotline</li>
-          <li>+1 800-956-4514 area code 160</li>
-          <li>Washington DC +1 202-742-5923</li>
-          <li>Atlanta +1 404-806-0153</li>
-          <li>info@cbdmeetings.com</li>
+        <p class="footer-text">Contacts</p>
+        <ul class="footer-list">
+          <li class="footer-item">CBD Meetings and individual events</li>
+          <li class="footer-item">PO Box 76096</li>
+          <li class="footer-item">Washington DC 20013</li>
+          <li class="footer-item">Hotline</li>
+          <li class="footer-item">+1 800-956-4514 area code 160</li>
+          <li class="footer-item">Washington DC +1 202-742-5923</li>
+          <li class="footer-item">Atlanta +1 404-806-0153</li>
+          <li class="footer-item">info@cbdmeetings.com</li>
         </ul>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+        <ul class="footer-list">
+          <li class="footer-item"><a class="footer-link" href=""></a></li>
+          <li class="footer-item"><a class="footer-link" href=""></a></li>
+          <li class="footer-item"><a class="footer-link" href=""></a></li>
+          <li class="footer-item"><a class="footer-link" href=""></a></li>
         </ul>
-        <ul>
-          <li>Main</li>
-          <li>Products</li>
-          <li>Career</li>
-          <li>Deadlines</li>
+        <ul class="footer-list">
+          <li class="footer-item">Main</li>
+          <li class="footer-item">Products</li>
+          <li class="footer-item">Career</li>
+          <li class="footer-item">Deadlines</li>
         </ul>
-        <p>Redesign of the site 2022/2023</p>
+        <p class="footer-text">Redesign of the site 2022/2023</p>
       </div>
     </footer>
   </body>

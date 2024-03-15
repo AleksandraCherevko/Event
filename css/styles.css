@@ -1,0 +1,598 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.more-detail-btn {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #04867e;
+}
+/* ==============HEADER=============== */
+.header {
+}
+.container {
+}
+.logo-link {
+}
+.link {
+}
+.logo {
+}
+.header-menu {
+}
+.header-navigation {
+}
+.nav-list {
+}
+.list {
+}
+.nav-item {
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.signup {
+}
+.signup-item {
+}
+
+/* ==============FOOTER=============== */
+.footer {
+  background-color: #16392d;
+}
+.container {
+}
+.logo-link {
+}
+.link {
+}
+.logo {
+}
+.footer-list {
+}
+.footer-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0em;
+  color: #979797;
+}
+.footer-about {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #979797;
+}
+.footer-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  color: #979797;
+}
+.footer-link {
+}
+/* ==============MAIN=============== */
+
+.slogan {
+  background-color: black;
+}
+.slogan-title {
+  font-family: "Montserrat Alternates";
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  color: #fdfdfd;
+}
+.slogan-text {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0em;
+  color: #979797;
+}
+
+.about-img {
+}
+.about-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.about-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+  color: #3d3c39;
+}
+
+.inspiration-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.about-btn {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #04867e;
+}
+.chat-btn {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #04867e;
+}
+
+.protocol {
+  background-color: wheat;
+}
+.protocol-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #fdfdfd;
+}
+.protocol-card-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.protocol-list {
+}
+.protocol-item {
+}
+.protocol-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+  color: #3d3c39;
+}
+.gallery-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.gallery-list {
+}
+.gallery-item {
+}
+.gallery-link {
+}
+.gallery-img {
+}
+.service-menu-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #fdfdfd;
+}
+.service-menu-list {
+}
+.service-menu-item {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+}
+.events-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.events-after-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #da9d27;
+}
+.events-after-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+}
+.events-btn {
+}
+.events-img {
+}
+.news-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+}
+.news-list {
+}
+.news-item {
+}
+.news-date {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.news-img {
+}
+.news-text {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0em;
+  color: #da9d27;
+}
+.news-btn {
+}
+
+/* =====================================INDEX============================================== */
+
+.slogan {
+}
+.container {
+}
+.slogan-wrap {
+}
+.slogan-wrap-text {
+}
+.main-tittle {
+  font-family: "Montserrat Alternates";
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  color: #f8f1e9;
+}
+.mt-span {
+}
+.hidden {
+}
+.slogan-subtitle {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  color: #979797;
+}
+.about-company {
+}
+.about-company-list-wrap {
+}
+.about-company-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.about-company-wrap {
+}
+.about-company-list {
+}
+.about-company-item {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0em;
+  color: #da9d27;
+}
+.list {
+}
+.about-company-button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.btn {
+}
+.about-company-text-wrap {
+}
+.about-company-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+  color: #3d3c39;
+}
+.details-button {
+}
+.place-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #f8f1e9;
+}
+.place-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.place-list {
+}
+.place-item {
+}
+.place-num {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.place-prf {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.solutions-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.solutions-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0em;
+  color: #3d3c39;
+}
+.solution-list {
+}
+
+.service-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #f8f1e9;
+}
+.service-list-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0em;
+  color: #da9d27;
+}
+.solution-img {
+}
+
+.service-list {
+}
+.service-item {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+}
+.service-text {
+}
+.service-img {
+}
+
+.team-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-text {
+}
+.team-btn {
+}
+.team-member {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.team-prof {
+}
+.cooperation-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #f8f1e9;
+}
+.cooperation-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.cooperation-btn {
+}
+.feedback-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.feedback-list {
+}
+.feedback-item {
+}
+.feedback-img {
+}
+.feedback-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+.feedback-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #3e1063;
+}
+.feedback-btn {
+}
+
+/* =====================================SERVICES============================================== */
+.container {
+}
+.hero-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #f8f1e9;
+}
+.service-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.service-img {
+}
+.service-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+}
+.service-btn {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.service-provide-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #f8f1e9;
+}
+.service-provide-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+}
+.service-sel-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.service-sel-list {
+}
+.service-sel-item {
+}
+.service-sel-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+}
+.feedback-title {
+}
+.feedback-list {
+}
+.feedback-item {
+}
+.feedback-img {
+}
+.feedback-text {
+}
+.feedback-name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+}
+.feedback-btn {
+}
+.logistic-title {
+  font-family: "Montserrat Alternates";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0em;
+  color: #a76e00;
+}
+.logistic-text {
+}
+.logistic-btn {
+}
+.price-list {
+}
+.price-item {
+}
+.price-title {
+}
+.price-count {
+}
+.price-guests {
+}
+.price-text {
+}
+.price-btn {
+}
