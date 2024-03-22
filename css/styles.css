@@ -1,5 +1,22 @@
+:root {
+  --main-title-color: #a76e00;
+  --acent-color: #da9d27;
+  --btn-color: #04867e;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+}
+.btn {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .more-detail-btn {
@@ -7,8 +24,9 @@ body {
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0em;
-  color: #04867e;
+  color: var(--btn-color);
 }
+
 /* ==============HEADER=============== */
 .header {
 }
@@ -35,8 +53,14 @@ body {
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fdfdfd;
+}
+
 .signup {
 }
 .signup-item {
@@ -108,7 +132,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .about-text {
   font-size: 20px;
@@ -130,14 +154,14 @@ body {
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0em;
-  color: #04867e;
+  color: var(--btn-color);
 }
 .chat-btn {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0em;
-  color: #04867e;
+  color: var(--btn-color);
 }
 
 .protocol {
@@ -156,7 +180,7 @@ body {
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .protocol-list {
 }
@@ -214,7 +238,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #da9d27;
+  color: var(--acent-color);
 }
 .events-after-text {
   font-size: 20px;
@@ -251,7 +275,7 @@ body {
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: 0em;
-  color: #da9d27;
+  color: var(--acent-color);
 }
 .news-btn {
 }
@@ -315,7 +339,7 @@ body {
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .btn {
 }
@@ -355,7 +379,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .place-prf {
   font-size: 28px;
@@ -395,7 +419,7 @@ body {
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: 0em;
-  color: #da9d27;
+  color: var(--acent-color);
 }
 .solution-img {
 }
@@ -419,7 +443,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .team-list {
 }
@@ -463,7 +487,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .feedback-list {
 }
@@ -504,7 +528,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .service-img {
 }
@@ -519,7 +543,7 @@ body {
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .service-provide-title {
   font-family: "Montserrat Alternates";
@@ -540,7 +564,7 @@ body {
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .service-sel-list {
 }
@@ -576,7 +600,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0em;
-  color: #a76e00;
+  color: var(--main-title-color);
 }
 .logistic-text {
 }
